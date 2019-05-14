@@ -73,4 +73,10 @@ object EjercicioTema6 extends App {
     case Tren(_, _, _, _) => pTren
     case _ => otherwise
   }
+
+  consulta(vehiculoCoche)
+  consulta(vehiculoBus)
+  consulta(vehiculoAvion)
+  consulta(vehiculoMoto)
+  consulta(vehiculoTren)
 }
